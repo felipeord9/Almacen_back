@@ -1,0 +1,690 @@
+{
+  "entradas": [
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "Carlos Andrés Gonzalez Ocampo",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 10,
+      "date": "5/10/2023, 7:36:25 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2678,
+        "Desc. item": "FILETE DE SALMON PREMIUN x 350 ARA",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143003  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1144098716,
+        "NOMBRE": "DANIELA CORTES HURTADO",
+        "CARGO": "ANALISTA DE OPERACIONES"
+      },
+      "amount": 1200,
+      "date": "5/10/2023, 7:37:12 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 10,
+      "date": "5/10/2023, 1:54:04 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 50,
+      "date": "5/10/2023, 2:02:41 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 50,
+      "date": "5/10/2023, 2:06:12 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2678,
+        "Desc. item": "FILETE DE SALMON PREMIUN x 350 ARA",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143003  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 50,
+      "date": "5/10/2023, 2:06:28 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2000,
+        "Desc. item": "FILETE DE BASA 4 x KL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 1000,
+      "date": "5/10/2023, 2:47:15 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2000,
+        "Desc. item": "FILETE DE BASA 4 x KL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 1000,
+      "date": "5/10/2023, 2:52:25 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2000,
+        "Desc. item": "FILETE DE BASA 4 x KL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 50,
+      "date": "5/10/2023, 2:52:36 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1877,
+        "Desc. item": "CAMARON CULT. TIG. PDP 41-50 x 400 MANGL",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143003  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 177,
+      "date": "5/10/2023, 3:44:35 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1444,
+        "Desc. item": "FILETE DE ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV143003  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 1000,
+      "date": "5/11/2023, 7:36:15 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3000,
+        "Desc. item": "FTE DE SALMON EN PROCESO INDUSTRIAL 4-6",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1144098716,
+        "NOMBRE": "DANIELA CORTES HURTADO",
+        "CARGO": "ANALISTA DE OPERACIONES"
+      },
+      "amount": 300,
+      "date": "5/11/2023, 9:08:57 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3002,
+        "Desc. item": "TRUCHA ARCOIRIS EN PROCESO",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1144098716,
+        "NOMBRE": "DANIELA CORTES HURTADO",
+        "CARGO": "ANALISTA DE OPERACIONES"
+      },
+      "amount": 500,
+      "date": "5/11/2023, 9:14:12 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3000,
+        "Desc. item": "FTE DE SALMON EN PROCESO INDUSTRIAL 4-6",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 300,
+      "date": "5/11/2023, 9:46:38 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1584,
+        "Desc. item": "BASA HG 20",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 300,
+      "date": "5/11/2023, 10:01:10 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3000,
+        "Desc. item": "FTE DE SALMON EN PROCESO INDUSTRIAL 4-6",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 300,
+      "date": "5/11/2023, 10:16:43 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3000,
+        "Desc. item": "FTE DE SALMON EN PROCESO INDUSTRIAL 4-6",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 300,
+      "date": "5/11/2023, 10:16:43 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2464,
+        "Desc. item": "ALETAS DE POTA",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140501  ",
+        "Desc. tipo inventario": "MATERIA PRIMA GRAVADA 19%"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 500,
+      "date": "5/11/2023, 10:22:05 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3000,
+        "Desc. item": "FTE DE SALMON EN PROCESO INDUSTRIAL 4-6",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 200,
+      "date": "5/11/2023, 10:31:37 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1002,
+        "Desc. item": "ALBACORA",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 600,
+      "date": "5/13/2023, 8:37:28 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2000,
+        "Desc. item": "FILETE DE BASA 4 x KL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 5000,
+      "date": "5/13/2023, 10:21:04 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1300,
+        "Desc. item": "PALMITOS DE CANGREJO E/V - UND x 450 GR",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143001  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO GRAVADO 19%"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 44,
+      "date": "5/13/2023, 10:21:33 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 5,
+      "date": "5/13/2023, 10:48:08 AM"
+    }
+  ],
+  "salidas": [
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2678,
+        "Desc. item": "FILETE DE SALMON PREMIUN x 350 ARA",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143003  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1144098716,
+        "NOMBRE": "DANIELA CORTES HURTADO",
+        "CARGO": "ANALISTA DE OPERACIONES"
+      },
+      "amount": 600,
+      "date": "5/10/2023, 7:38:35 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 20,
+      "date": "5/10/2023, 3:50:06 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 10,
+      "date": "5/10/2023, 3:55:18 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2678,
+        "Desc. item": "FILETE DE SALMON PREMIUN x 350 ARA",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143003  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 20,
+      "date": "5/10/2023, 3:57:01 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 2678,
+        "Desc. item": "FILETE DE SALMON PREMIUN x 350 ARA",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143003  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 300,
+      "date": "5/10/2023, 3:57:22 PM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 5,
+      "date": "5/11/2023, 8:00:18 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 5,
+      "date": "5/11/2023, 8:00:59 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 5,
+      "date": "5/11/2023, 8:01:05 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1001,
+        "Desc. item": "ALGUACIL",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 5,
+      "date": "5/11/2023, 8:05:30 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1584,
+        "Desc. item": "BASA HG 20",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV140503  ",
+        "Desc. tipo inventario": "MATERIA PRIMA EXCLUIDO"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 100,
+      "date": "5/11/2023, 10:02:28 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3000,
+        "Desc. item": "FTE DE SALMON EN PROCESO INDUSTRIAL 4-6",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 1000,
+      "date": "5/11/2023, 10:18:00 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 3000,
+        "Desc. item": "FTE DE SALMON EN PROCESO INDUSTRIAL 4-6",
+        "U.M.": "KG  ",
+        "Tipo inventario": "IV141001  ",
+        "Desc. tipo inventario": "PRODUCTO EN PROCES 1"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1118298640,
+        "NOMBRE": "CARLOS ANDRES GONZALEZ OCAMPO",
+        "CARGO": "ANALISTA DE LOGISTICA "
+      },
+      "amount": 250,
+      "date": "5/11/2023, 10:32:59 AM"
+    },
+    {
+      "product": {
+        "Bodega": 103,
+        "Desc. bodega": "PRODUCTO EN PROCESO PLANTA PRINCIPAL",
+        "Referencia": 1300,
+        "Desc. item": "PALMITOS DE CANGREJO E/V - UND x 450 GR",
+        "U.M.": "UND ",
+        "Tipo inventario": "IV143001  ",
+        "Desc. tipo inventario": "PRODUCTO TERMINADO GRAVADO 19%"
+      },
+      "colaborator": {
+        "No.": 0,
+        "CEDULA": 1006050765,
+        "NOMBRE": "CASTRILLON GONZALEZ JHONATAN",
+        "CARGO": "PRACTICANTE EN SISTEMAS"
+      },
+      "amount": 43,
+      "date": "5/13/2023, 10:23:17 AM"
+    }
+  ]
+}
