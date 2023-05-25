@@ -36,8 +36,25 @@ const getTotalAmount = async () => {
     LEFT OUTER JOIN "movements" AS "movements" ON "Cellar"."id" = "movements"."cellar_id" 
     LEFT OUTER JOIN "products" AS "movements->product" ON "movements"."product_id" = "movements->product"."id"
     GROUP BY "Cellar"."id"`);
-  
+
   return total[0];
+};
+
+const getExistence = async () => {
+  const existence = await sequelize.query(`
+  SELECT product_id AS id, description, um,
+	(
+	SUM(CASE WHEN deleted = false AND movements."movementType" ='entrada' THEN movements.amount ELSE 0 END) -
+  SUM(CASE WHEN deleted = false AND movements."movementType" = 'salida' THEN movements.amount ELSE 0 END)
+  ) AS total 
+  FROM "cellars" AS "Cellar"
+  LEFT OUTER JOIN "movements" AS "movements" ON "Cellar"."id" = "movements"."cellar_id" 
+  LEFT OUTER JOIN "products" AS "movements->product" ON "movements"."product_id" = "movements->product"."id"
+  WHERE "product_id" IS NOT NULL
+  GROUP BY product_id, description, um
+  `);
+
+  return existence[0];
 };
 
 module.exports = {
@@ -45,4 +62,5 @@ module.exports = {
   findOne,
   create,
   getTotalAmount,
+  getExistence,
 };

@@ -50,6 +50,11 @@ const MovementSchema = {
     allowNull: true,
     field: "deleted_by"
   },
+  removalReason: {
+    type: DataTypes.STRING,
+    allowNull: true,
+    field: "removal_reason"
+  },
   colaboratorId: {
     type: DataTypes.INTEGER,
     allowNull: false,
