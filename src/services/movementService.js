@@ -1,10 +1,10 @@
 const fs = require('fs')
 const { models } = require('../libs/sequelize')
-const BDMovimientos = require("../static/Movimientos.json");
 
 const find = async () => {
   const movements = await models.Movement.findAll({
-    include: ['cellar', 'product', 'colaborator']
+    include: ['cellar', 'product', 'colaborator'],
+    order: [['createdAt', 'DESC']]
   })
 
   return movements

@@ -57,9 +57,23 @@ const getTotalAmount = async (req, res) => {
     } 
 }
 
-const getExistence = async (req, res) => {
+const getAllCellarsExistence = async (req, res) => {
     try {
-        const data = await CellarService.getExistence()
+        const data = await CellarService.getAllCellarsExistence()
+
+        res.status(201).json({
+            status: 'OK',
+            data
+        })
+    } catch (error) {
+        res.status(400).json({ error })
+    }
+}
+
+const getCellarExistence = async (req, res) => {
+    try {
+        const { params: { id }} = req
+        const data = await CellarService.getCellarExistence(id)
 
         res.status(201).json({
             status: 'OK',
@@ -75,5 +89,6 @@ module.exports = {
     findOneCellar,
     createCellar,
     getTotalAmount,
-    getExistence
+    getAllCellarsExistence,
+    getCellarExistence
 }

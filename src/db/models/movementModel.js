@@ -55,6 +55,11 @@ const MovementSchema = {
     allowNull: true,
     field: "removal_reason"
   },
+  dueDate: {
+    type: DataTypes.DATE,
+    allowNull: false,
+    field: "due_date"
+  },
   colaboratorId: {
     type: DataTypes.INTEGER,
     allowNull: false,
