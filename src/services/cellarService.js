@@ -14,7 +14,7 @@ const findOne = async (id) => {
   const cellar = await models.Cellar.findByPk(id, {
     include: {
       association: "movements",
-      include: ["colaborator", "product"],
+      include: ["colaborator", "product", "position"],
     },
     order: [["movements", "id", "DESC"]],
     transaction: t
@@ -67,15 +67,16 @@ const getAllCellarsExistence = async () => {
 
 const getCellarExistence = async (id) => {
   const existence = await sequelize.query(`
-  SELECT "movements"."product_id" AS id, "description", "um", "movements"."due_date", "movements"."flag",
+  SELECT "movements"."product_id" AS id, "description", "um", "movements"."due_date", "name" AS position,
     (SUM(CASE WHEN deleted = false AND movements."movementType" ='entrada' THEN movements.amount ELSE 0 END) - 
     SUM(CASE WHEN deleted = false AND movements."movementType" ='salida' THEN movements.amount ELSE 0 END)
     ) AS total 
     FROM "cellars" AS "Cellar"
     LEFT OUTER JOIN "movements" AS "movements" ON "Cellar"."id" = "movements"."cellar_id" 
     LEFT OUTER JOIN "products" AS "movements->product" ON "movements"."product_id" = "movements->product"."id"
+	LEFT OUTER JOIN "positions" AS "movements->pos" ON "movements"."position_id" = "movements->pos"."id" 
 	WHERE "Cellar"."id" = ${id} AND deleted = false
-    GROUP BY "movements"."product_id", "movements"."flag", "movements"."due_date", "description", "um"
+    GROUP BY "movements"."product_id", "name", "movements"."flag", "movements"."due_date", "description", "um"
 	ORDER BY due_date ASC
   `);
   

@@ -2,6 +2,7 @@ const { Model, DataTypes, Sequelize } = require("sequelize");
 const { COLABORATOR_TABLE } = require("./colaboratorModel");
 const { CELLAR_TABLE } = require("./cellarModel");
 const { PRODUCT_TABLE } = require("./productModel");
+const { POSITION_TABLE } = require("./positionModel");
 
 const MOVEMENT_TABLE = "movements";
 
@@ -18,11 +19,6 @@ const MovementSchema = {
   note: {
     type: DataTypes.TEXT,
     allowNull: true,
-  },
-  flag: {
-    type: DataTypes.ENUM,
-    values: ["PRODUCCION", "LOGISTICA", "CALIDAD"],
-    allowNull: false,
   },
   movementType: {
     type: DataTypes.STRING,
@@ -56,7 +52,7 @@ const MovementSchema = {
     field: "removal_reason"
   },
   dueDate: {
-    type: DataTypes.DATE,
+    type: DataTypes.DATEONLY,
     allowNull: false,
     field: "due_date"
   },
@@ -74,9 +70,18 @@ const MovementSchema = {
     allowNull: false,
     field: "product_id",
     reference: {
-      model: CELLAR_TABLE,
+      model: PRODUCT_TABLE,
       key: "product_id",
     },
+  },
+  positionId: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    field: 'position_id',
+    reference: {
+      model: POSITION_TABLE,
+      key: 'position_id'
+    }
   },
   cellarId: {
     type: DataTypes.INTEGER,
@@ -94,6 +99,7 @@ class Movement extends Model {
     this.belongsTo(models.Colaborator, { as: "colaborator" });
     this.belongsTo(models.Product, { as: "product" });
     this.belongsTo(models.Cellar, { as: "cellar" });
+    this.belongsTo(models.Position, { as: "position"})
   }
   static config(sequelize) {
     return {

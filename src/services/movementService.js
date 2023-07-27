@@ -1,4 +1,3 @@
-const fs = require('fs')
 const { models } = require('../libs/sequelize')
 
 const find = async () => {

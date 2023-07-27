@@ -3,6 +3,7 @@ const movementRoutes = require("./movementRoutes");
 const colaboratorRoutes = require("./colaboratorRoutes");
 const productRoutes = require("./productRoutes");
 const cellarRoutes = require('./cellarRoutes')
+const positionRoutes = require('./positionRoutes')
 
 function routerApi(app) {
   const router = express.Router();
@@ -13,6 +14,7 @@ function routerApi(app) {
   router.use("/colaborators", colaboratorRoutes);
   router.use("/products", productRoutes);
   router.use('/cellars', cellarRoutes)
+  router.use('/positions', positionRoutes)
 }
 
 module.exports = routerApi;
