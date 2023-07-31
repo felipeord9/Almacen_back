@@ -67,7 +67,7 @@ const getAllCellarsExistence = async () => {
 
 const getCellarExistence = async (id) => {
   const existence = await sequelize.query(`
-  SELECT "movements"."product_id" AS id, "description", "um", "name" AS position,
+  SELECT "movements"."product_id" AS id, "description", "um", "movements->pos"."id" AS position_id, "movements->pos"."name" AS position,
     (SUM(CASE WHEN deleted = false AND movements."movementType" ='entrada' THEN movements.amount ELSE 0 END) - 
     SUM(CASE WHEN deleted = false AND movements."movementType" ='salida' THEN movements.amount ELSE 0 END)
     ) AS total 
@@ -76,8 +76,8 @@ const getCellarExistence = async (id) => {
     LEFT OUTER JOIN "products" AS "movements->product" ON "movements"."product_id" = "movements->product"."id"
 	LEFT OUTER JOIN "positions" AS "movements->pos" ON "movements"."position_id" = "movements->pos"."id" 
 	WHERE "Cellar"."id" = ${id} AND deleted = false
-    GROUP BY "movements"."product_id", "name", "description", "um"
-	ORDER BY id DESC
+    GROUP BY "movements"."product_id", "movements->pos"."id", "description", "um"
+	ORDER BY id DESC;
   `);
   
   return existence[0]
