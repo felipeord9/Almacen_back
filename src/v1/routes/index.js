@@ -4,6 +4,7 @@ const colaboratorRoutes = require("./colaboratorRoutes");
 const productRoutes = require("./productRoutes");
 const cellarRoutes = require('./cellarRoutes')
 const positionRoutes = require('./positionRoutes')
+const multerRoutes = require('./multerRoutes')
 
 function routerApi(app) {
   const router = express.Router();
@@ -15,6 +16,7 @@ function routerApi(app) {
   router.use("/products", productRoutes);
   router.use('/cellars', cellarRoutes)
   router.use('/positions', positionRoutes)
+  router.use('/upload', multerRoutes)
 }
 
 module.exports = routerApi;

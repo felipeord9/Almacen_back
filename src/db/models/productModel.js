@@ -16,6 +16,10 @@ const ProductSchema = {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  photo: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
   conversion: {
     type: DataTypes.FLOAT,
     allowNull: false

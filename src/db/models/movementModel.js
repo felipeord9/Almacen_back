@@ -59,6 +59,8 @@ const MovementSchema = {
       model: COLABORATOR_TABLE,
       key: "colaborator_id",
     },
+    onUpdate: 'CASCADE',
+    onDelete: 'SET NULL'
   },
   productId: {
     type: DataTypes.INTEGER,
@@ -68,6 +70,8 @@ const MovementSchema = {
       model: PRODUCT_TABLE,
       key: "product_id",
     },
+    onUpdate: 'CASCADE',
+    onDelete: 'SET NULL'
   },
   positionId: {
     type: DataTypes.INTEGER,
@@ -76,7 +80,9 @@ const MovementSchema = {
     reference: {
       model: POSITION_TABLE,
       key: 'position_id'
-    }
+    },
+    onUpdate: 'CASCADE',
+    onDelete: 'SET NULL'
   },
   cellarId: {
     type: DataTypes.INTEGER,
@@ -86,6 +92,8 @@ const MovementSchema = {
       model: CELLAR_TABLE,
       key: "cellar_id",
     },
+    onUpdate: 'CASCADE',
+    onDelete: 'SET NULL'
   },
 };
 
