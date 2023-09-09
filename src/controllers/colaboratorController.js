@@ -15,37 +15,35 @@ const findAllColaborators = async (req, res, next) => {
 const findOneColaborator = async (req, res, next) => {
   try {
     const { params: { id } } = req;
-      const data = await ColaboratorService.findOne(id);
-    
-      res.status(201).json({
-        status: "OK",
-        data,
-      });
+    const data = await ColaboratorService.findOne(id);
+
+    res.status(201).json({
+      status: "OK",
+      data,
+    });
   } catch (error) {
-    res.json({
-        error
-    })
+    next(error)
   }
 };
 
 const createColaborator = (req, res, next) => {
   try {
-    const { body } = req
-    const data = ColaboratorService.create(body)
+    const { body } = req;
+    const data = ColaboratorService.create(body);
 
     res.status(201).json({
-      status: 'OK',
-      data
-    })
+      status: "OK",
+      data,
+    });
   } catch (error) {
     res.json({
-      error
-    })
+      error,
+    });
   }
-}
+};
 
 module.exports = {
-    findAllColaborators,
-    findOneColaborator,
-    createColaborator
-}
+  findAllColaborators,
+  findOneColaborator,
+  createColaborator,
+};
